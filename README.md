@@ -28,6 +28,7 @@ run:
       loginId:
       loginSecret:
       loginTenantId:
+      eventHub:
       name:
       namespace:
       resourceGroup:
