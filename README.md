@@ -20,22 +20,21 @@ opctl run github.com/opspec-pkgs/azure.eventhub.namespace.authrule.create#VERSIO
 ## compose
 
 ```yaml
-run:
-  op:
-    pkg: { ref: github.com/opspec-pkgs/azure.eventhub.namespace.authrule.create#VERSION }
-    inputs: 
-      subscriptionId:
-      loginId:
-      loginSecret:
-      loginTenantId:
-      eventHub:
-      name:
-      namespace:
-      resourceGroup:
-      rights:
-      # begin optional args
-      loginType:
-      # end optional args
+op:
+  pkg: { ref: github.com/opspec-pkgs/azure.eventhub.namespace.authrule.create#VERSION }
+  inputs: 
+    subscriptionId:
+    loginId:
+    loginSecret:
+    loginTenantId:
+    eventHub:
+    name:
+    namespace:
+    resourceGroup:
+    rights:
+    # begin optional args
+    loginType:
+    # end optional args
 ```
 
 # Support
