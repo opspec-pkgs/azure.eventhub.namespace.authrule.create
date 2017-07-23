@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/opspec-pkgs/azure.eventhub.namespace.authrule.create.svg?branch=master)](https://travis-ci.org/opspec-pkgs/azure.eventhub.namespace.authrule.create)
+
 # Problem statement
 creates an azure eventhub namespace authorization rule (if it doesn't already exist)
 
